@@ -14,7 +14,7 @@ public class Demo1 {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com");
-		
+		//comments
 		WebDriverManager.firefoxdriver().setup();
 		
 		WebDriver driver1= new FirefoxDriver();
