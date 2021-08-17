@@ -1,17 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[TestA]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="29181" started-at="2021-08-16T14:56:25Z" finished-at="2021-08-16T14:56:54Z">
+  <suite name="Default suite" duration-ms="7490" started-at="2021-08-17T15:22:01Z" finished-at="2021-08-17T15:22:08Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="29181" started-at="2021-08-16T14:56:25Z" finished-at="2021-08-16T14:56:54Z">
-      <class name="p1.Demo2">
-        <test-method status="PASS" signature="test()[pri:0, instance:p1.Demo2@4df50bcc]" name="test" duration-ms="29127" started-at="2021-08-16T14:56:25Z" finished-at="2021-08-16T14:56:54Z">
+    <test name="Default test" duration-ms="7490" started-at="2021-08-17T15:22:01Z" finished-at="2021-08-17T15:22:08Z">
+      <class name="script.NewTest">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.NewTest@a9cd3b1]" name="openApp" is-config="true" duration-ms="6806" started-at="2021-08-17T15:22:01Z" finished-at="2021-08-17T15:22:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- p1.Demo2 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="TestA()[pri:0, instance:script.NewTest@a9cd3b1]" name="TestA" duration-ms="7" started-at="2021-08-17T15:22:07Z" finished-at="2021-08-17T15:22:07Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestA]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TestA -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:script.NewTest@a9cd3b1]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-08-17T15:22:07Z" finished-at="2021-08-17T15:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:script.NewTest@a9cd3b1]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-08-17T15:22:07Z" finished-at="2021-08-17T15:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.NewTest@a9cd3b1]" name="closeApp" is-config="true" duration-ms="633" started-at="2021-08-17T15:22:07Z" finished-at="2021-08-17T15:22:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
